@@ -1,0 +1,1008 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress - SMS Notification Addon v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-04-25 11:38:44+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-sms.php:0
+#@ bookingpress-sms
+msgid "BookingPress - SMS Notification Addon"
+msgstr "BookingPress - Module complémentaire de notification par SMS"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-sms.php:0
+#@ bookingpress-sms
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-sms.php:0
+#@ bookingpress-sms
+msgid "Extension for BookingPress plugin to send SMS notification upon appointment booking, appointment cancel, appointment reschedule etc."
+msgstr "Extension pour le plugin BookingPress pour envoyer une notification par SMS lors de la prise de rendez-vous, de l'annulation de rendez-vous, du report de rendez-vous, etc."
+
+#. translators: plugin header field 'Author'
+#: bookingpress-sms.php:0
+#@ bookingpress-sms
+msgid "Repute InfoSystems"
+msgstr "Systèmes d'information de réputation"
+
+#: core/classes/class.bookingpress-sms.php:1007
+#@ bookingpress-sms
+msgid "Bookingpress - Sms plugin requires Bookingpress Premium Plugin installed and active."
+msgstr "Bookingpress - Le plugin SMS nécessite l'installation et l'activation du plugin Bookingpress Premium."
+
+#: core/classes/class.bookingpress-sms.php:1023
+#@ bookingpress-sms
+msgid "SMS Debug Logs"
+msgstr "Journaux de débogage SMS"
+
+#: core/classes/class.bookingpress-sms.php:1113
+#@ bookingpress-sms
+msgid "Something went wrong while sending sms"
+msgstr "Quelque chose s'est mal passé lors de l'envoi de SMS"
+
+#: core/classes/class.bookingpress-sms.php:1158
+#: core/classes/class.bookingpress-sms.php:1193
+#: core/classes/class.bookingpress-sms.php:1220
+#: core/classes/class.bookingpress-sms.php:1250
+#: core/classes/class.bookingpress-sms.php:1290
+#: core/classes/class.bookingpress-sms.php:1335
+#: core/classes/class.bookingpress-sms.php:1373
+#: core/classes/class.bookingpress-sms.php:1415
+#: core/classes/class.bookingpress-sms.php:1465
+#: core/classes/class.bookingpress-sms.php:1511
+#: core/classes/class.bookingpress-sms.php:1554
+#: core/classes/class.bookingpress-sms.php:1602
+#: core/classes/class.bookingpress-sms.php:1640
+#: core/classes/class.bookingpress-sms.php:1671
+#: core/classes/class.bookingpress-sms.php:1709
+#: core/classes/class.bookingpress-sms.php:1740
+#: core/classes/class.bookingpress-sms.php:1787
+#: core/classes/class.bookingpress-sms.php:1831
+#: core/classes/class.bookingpress-sms.php:1859
+#: core/classes/class.bookingpress-sms.php:1901
+#: core/classes/class.bookingpress-sms.php:1945
+#: core/classes/class.bookingpress-sms.php:1993
+#: core/classes/class.bookingpress-sms.php:2027
+#: core/classes/class.bookingpress-sms.php:2072
+#: core/classes/class.bookingpress-sms.php:2113
+#: core/classes/class.bookingpress-sms.php:2183
+#: core/classes/class.bookingpress-sms.php:2224
+#: core/classes/class.bookingpress-sms.php:2272
+#: core/classes/class.bookingpress-sms.php:2313
+#: core/classes/class.bookingpress-sms.php:2377
+#: core/classes/class.bookingpress-sms.php:2422
+#: core/classes/class.bookingpress-sms.php:2473
+#: core/classes/class.bookingpress-sms.php:2508
+#: core/classes/class.bookingpress-sms.php:2555
+#: core/classes/class.bookingpress-sms.php:2601
+#: core/classes/class.bookingpress-sms.php:2660
+#@ bookingpress-sms
+msgid "SMS Sent Successfully"
+msgstr "SMS envoyé avec succès"
+
+#: core/classes/class.bookingpress-sms.php:2681
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-sms
+msgid "Error"
+msgstr "Erreur"
+
+#: core/classes/class.bookingpress-sms.php:2804
+#@ bookingpress-sms
+msgid "Send SMS Notification"
+msgstr "Envoyer une notification par SMS"
+
+#: core/classes/class.bookingpress-sms.php:98
+#: core/classes/class.bookingpress-sms.php:101
+#: core/classes/class.bookingpress-sms.php:2822
+#@ bookingpress-sms
+msgid "SMS Notification Message"
+msgstr "Notification par SMS"
+
+#: core/classes/class.bookingpress-sms.php:2928
+#@ bookingpress-sms
+msgid "Clickatell"
+msgstr "Clickatell"
+
+#: core/classes/class.bookingpress-sms.php:2933
+#@ bookingpress-sms
+msgid "Redoxygen"
+msgstr "Redoxygène"
+
+#: core/classes/class.bookingpress-sms.php:2938
+#@ bookingpress-sms
+msgid "1s2u"
+msgstr "1s2u"
+
+#: core/classes/class.bookingpress-sms.php:2943
+#@ bookingpress-sms
+msgid "Experttexting"
+msgstr "SMS d'expert"
+
+#: core/classes/class.bookingpress-sms.php:2948
+#@ bookingpress-sms
+msgid "BearSMS"
+msgstr "OursSMS"
+
+#: core/classes/class.bookingpress-sms.php:2953
+#@ bookingpress-sms
+msgid "Spirius"
+msgstr "Spire"
+
+#: core/classes/class.bookingpress-sms.php:2958
+#@ bookingpress-sms
+msgid "D7 SMS"
+msgstr "SMS D7"
+
+#: core/classes/class.bookingpress-sms.php:2964
+#@ bookingpress-sms
+msgid "EZTexting"
+msgstr "EZTexting"
+
+#: core/classes/class.bookingpress-sms.php:2970
+#@ bookingpress-sms
+msgid "RingCaptcha"
+msgstr "AnneauCaptcha"
+
+#: core/classes/class.bookingpress-sms.php:2975
+#@ bookingpress-sms
+msgid "Bulksms"
+msgstr "Bulksms"
+
+#: core/classes/class.bookingpress-sms.php:2983
+#@ bookingpress-sms
+msgid "Exotel"
+msgstr "Exotel"
+
+#: core/classes/class.bookingpress-sms.php:2989
+#@ bookingpress-sms
+msgid "Text Local"
+msgstr "Texte local"
+
+#: core/classes/class.bookingpress-sms.php:2994
+#@ bookingpress-sms
+msgid "Nexmo"
+msgstr "Nexmo"
+
+#: core/classes/class.bookingpress-sms.php:3000
+#@ bookingpress-sms
+msgid "MSG91"
+msgstr "MSG91"
+
+#: core/classes/class.bookingpress-sms.php:3005
+#@ bookingpress-sms
+msgid "Textbelt"
+msgstr "Ceinture de texte"
+
+#: core/classes/class.bookingpress-sms.php:3010
+#@ bookingpress-sms
+msgid "Vianett"
+msgstr "Vianet"
+
+#: core/classes/class.bookingpress-sms.php:3015
+#@ bookingpress-sms
+msgid "SMS Global"
+msgstr "SMS mondial"
+
+#: core/classes/class.bookingpress-sms.php:3020
+#@ bookingpress-sms
+msgid "Text Marketer"
+msgstr "Marketing de texte"
+
+#: core/classes/class.bookingpress-sms.php:3025
+#@ bookingpress-sms
+msgid "Swift SMS Gateway"
+msgstr "Passerelle SMS rapide"
+
+#: core/classes/class.bookingpress-sms.php:3031
+#@ bookingpress-sms
+msgid "MSG Club"
+msgstr "Club MSG"
+
+#: core/classes/class.bookingpress-sms.php:3036
+#@ bookingpress-sms
+msgid "Easy Send Sms"
+msgstr "Envoi facile de SMS"
+
+#: core/classes/class.bookingpress-sms.php:3041
+#@ bookingpress-sms
+msgid "Cheap Global SMS"
+msgstr "SMS mondiaux bon marché"
+
+#: core/classes/class.bookingpress-sms.php:3046
+#@ bookingpress-sms
+msgid "Messente"
+msgstr "Messe"
+
+#: core/classes/class.bookingpress-sms.php:3052
+#@ bookingpress-sms
+msgid "Message Bird"
+msgstr "Message Oiseau"
+
+#: core/classes/class.bookingpress-sms.php:3060
+#: core/views/bookingpress_sms_settings.php:663
+#: core/views/bookingpress_sms_settings.php:667
+#@ bookingpress-sms
+msgid "Authorization Key"
+msgstr "Clé d'autorisation"
+
+#: core/classes/class.bookingpress-sms.php:3066
+#@ bookingpress-sms
+msgid "Authorization key can not be left blank"
+msgstr "La clé d'autorisation ne peut pas être laissée vide"
+
+#: core/classes/class.bookingpress-sms.php:3071
+#@ bookingpress-sms
+msgid "Telnyx"
+msgstr "Telnyx"
+
+#: core/classes/class.bookingpress-sms.php:3079
+#: core/views/bookingpress_sms_settings.php:684
+#: core/views/bookingpress_sms_settings.php:688
+#@ bookingpress-sms
+msgid "Profile Secret"
+msgstr "Secret de profil"
+
+#: core/classes/class.bookingpress-sms.php:3085
+#@ bookingpress-sms
+msgid "Profile Secret can not be left blank"
+msgstr "Le secret du profil ne peut pas être laissé vide"
+
+#: core/classes/class.bookingpress-sms.php:3090
+#@ bookingpress-sms
+msgid "Routee"
+msgstr "Itinéraire"
+
+#: core/classes/class.bookingpress-sms.php:3099
+#: core/classes/class.bookingpress-sms.php:3120
+#: core/classes/class.bookingpress-sms.php:3140
+#: core/views/bookingpress_sms_settings.php:736
+#: core/views/bookingpress_sms_settings.php:740
+#: core/views/bookingpress_sms_settings.php:767
+#: core/views/bookingpress_sms_settings.php:771
+#@ bookingpress-sms
+msgid "Authorization"
+msgstr "Autorisation"
+
+#: core/classes/class.bookingpress-sms.php:3105
+#: core/classes/class.bookingpress-sms.php:3126
+#: core/classes/class.bookingpress-sms.php:3146
+#@ bookingpress-sms
+msgid "Authorization can not be left blank"
+msgstr "L'autorisation ne peut pas être laissée vide"
+
+#: core/classes/class.bookingpress-sms.php:3110
+#@ bookingpress-sms
+msgid "Wavecell"
+msgstr "Cellule d'onde"
+
+#: core/classes/class.bookingpress-sms.php:3131
+#@ bookingpress-sms
+msgid "EngageSPARK"
+msgstr "EngageSPARK"
+
+#: core/classes/class.bookingpress-sms.php:3152
+#@ bookingpress-sms
+msgid "SMS Gateway Center"
+msgstr "Centre de passerelle SMS"
+
+#: core/classes/class.bookingpress-sms.php:3160
+#: core/classes/class.bookingpress-sms.php:3200
+#: core/classes/class.bookingpress-sms.php:3220
+#: core/classes/class.bookingpress-sms.php:3238
+#: core/classes/class.bookingpress-sms.php:3291
+#: core/views/bookingpress_sms_settings.php:35
+#: core/views/bookingpress_sms_settings.php:39
+#: core/views/bookingpress_sms_settings.php:287
+#: core/views/bookingpress_sms_settings.php:291
+#: core/views/bookingpress_sms_settings.php:308
+#: core/views/bookingpress_sms_settings.php:319
+#: core/views/bookingpress_sms_settings.php:323
+#: core/views/bookingpress_sms_settings.php:370
+#: core/views/bookingpress_sms_settings.php:374
+#: core/views/bookingpress_sms_settings.php:391
+#: core/views/bookingpress_sms_settings.php:395
+#: core/views/bookingpress_sms_settings.php:422
+#: core/views/bookingpress_sms_settings.php:798
+#: core/views/bookingpress_sms_settings.php:802
+#: core/views/bookingpress_sms_settings.php:874
+#: core/views/bookingpress_sms_settings.php:878
+#: core/views/bookingpress_sms_settings.php:895
+#: core/views/bookingpress_sms_settings.php:899
+#: core/views/bookingpress_sms_settings.php:916
+#: core/views/bookingpress_sms_settings.php:920
+#: core/views/bookingpress_sms_settings.php:968
+#: core/views/bookingpress_sms_settings.php:972
+#@ bookingpress-sms
+msgid "API Key"
+msgstr "clé API"
+
+#: core/classes/class.bookingpress-sms.php:3166
+#: core/classes/class.bookingpress-sms.php:3186
+#: core/classes/class.bookingpress-sms.php:3206
+#: core/classes/class.bookingpress-sms.php:3226
+#: core/classes/class.bookingpress-sms.php:3244
+#: core/classes/class.bookingpress-sms.php:3297
+#@ bookingpress-sms
+msgid "API Key can not be left blank"
+msgstr "La clé API ne peut pas être laissée vide"
+
+#: core/classes/class.bookingpress-sms.php:3171
+#@ bookingpress-sms
+msgid "SMS API"
+msgstr "API SMS"
+
+#: core/classes/class.bookingpress-sms.php:3180
+#: core/views/bookingpress_sms_settings.php:853
+#: core/views/bookingpress_sms_settings.php:857
+#@ bookingpress-sms
+msgid "Access Token"
+msgstr "Jeton d'accès"
+
+#: core/classes/class.bookingpress-sms.php:3191
+#@ bookingpress-sms
+msgid "Fast 2 SMS"
+msgstr "Rapide 2 SMS"
+
+#: core/classes/class.bookingpress-sms.php:3211
+#@ bookingpress-sms
+msgid "Alcodes"
+msgstr "Alcodes"
+
+#: core/classes/class.bookingpress-sms.php:3231
+#@ bookingpress-sms
+msgid "Movile"
+msgstr "Mobile"
+
+#: core/classes/class.bookingpress-sms.php:3247
+#: core/classes/class.bookingpress-sms.php:3309
+#: core/views/bookingpress_sms_settings.php:87
+#: core/views/bookingpress_sms_settings.php:108
+#: core/views/bookingpress_sms_settings.php:148
+#: core/views/bookingpress_sms_settings.php:179
+#: core/views/bookingpress_sms_settings.php:210
+#: core/views/bookingpress_sms_settings.php:298
+#: core/views/bookingpress_sms_settings.php:302
+#: core/views/bookingpress_sms_settings.php:455
+#: core/views/bookingpress_sms_settings.php:459
+#: core/views/bookingpress_sms_settings.php:507
+#: core/views/bookingpress_sms_settings.php:511
+#: core/views/bookingpress_sms_settings.php:570
+#: core/views/bookingpress_sms_settings.php:574
+#: core/views/bookingpress_sms_settings.php:632
+#: core/views/bookingpress_sms_settings.php:636
+#: core/views/bookingpress_sms_settings.php:926
+#: core/views/bookingpress_sms_settings.php:930
+#: core/views/bookingpress_sms_settings.php:989
+#: core/views/bookingpress_sms_settings.php:993
+#@ bookingpress-sms
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: core/classes/class.bookingpress-sms.php:3253
+#: core/classes/class.bookingpress-sms.php:3315
+#@ bookingpress-sms
+msgid "Username can not be left blank"
+msgstr "Le nom d'utilisateur ne peut pas être laissé vide"
+
+#: core/classes/class.bookingpress-sms.php:3259
+#@ bookingpress-sms
+msgid "Twilio"
+msgstr "Twilio"
+
+#: core/classes/class.bookingpress-sms.php:3265
+#: core/views/bookingpress_sms_settings.php:349
+#: core/views/bookingpress_sms_settings.php:353
+#: core/views/bookingpress_sms_settings.php:937
+#: core/views/bookingpress_sms_settings.php:941
+#@ bookingpress-sms
+msgid "Account SID"
+msgstr "ID du compte"
+
+#: core/classes/class.bookingpress-sms.php:3271
+#@ bookingpress-sms
+msgid "Account SID can not be left blank"
+msgstr "Le SID du compte ne peut pas être laissé vide"
+
+#: core/classes/class.bookingpress-sms.php:3274
+#: core/views/bookingpress_sms_settings.php:947
+#: core/views/bookingpress_sms_settings.php:951
+#@ bookingpress-sms
+msgid "Auth Token"
+msgstr "Jeton d'authentification"
+
+#: core/classes/class.bookingpress-sms.php:3284
+#@ bookingpress-sms
+msgid "Telerivet"
+msgstr "Télérivet"
+
+#: core/classes/class.bookingpress-sms.php:3302
+#@ bookingpress-sms
+msgid "ClickSend"
+msgstr "Cliquez sur Envoyer"
+
+#: core/classes/class.bookingpress-sms.php:3318
+#: core/views/bookingpress_sms_settings.php:76
+#: core/views/bookingpress_sms_settings.php:97
+#: core/views/bookingpress_sms_settings.php:118
+#: core/views/bookingpress_sms_settings.php:128
+#: core/views/bookingpress_sms_settings.php:138
+#: core/views/bookingpress_sms_settings.php:158
+#: core/views/bookingpress_sms_settings.php:189
+#: core/views/bookingpress_sms_settings.php:220
+#: core/views/bookingpress_sms_settings.php:251
+#: core/views/bookingpress_sms_settings.php:312
+#: core/views/bookingpress_sms_settings.php:465
+#: core/views/bookingpress_sms_settings.php:469
+#: core/views/bookingpress_sms_settings.php:486
+#: core/views/bookingpress_sms_settings.php:490
+#: core/views/bookingpress_sms_settings.php:517
+#: core/views/bookingpress_sms_settings.php:521
+#: core/views/bookingpress_sms_settings.php:580
+#: core/views/bookingpress_sms_settings.php:584
+#: core/views/bookingpress_sms_settings.php:642
+#: core/views/bookingpress_sms_settings.php:646
+#: core/views/bookingpress_sms_settings.php:818
+#: core/views/bookingpress_sms_settings.php:822
+#: core/views/bookingpress_sms_settings.php:999
+#: core/views/bookingpress_sms_settings.php:1003
+#@ bookingpress-sms
+msgid "Password"
+msgstr "Mot de passe"
+
+#: core/views/bookingpress_sms_settings.php:3
+#@ bookingpress-sms
+msgid "SMS Settings"
+msgstr "Paramètres SMS"
+
+#: core/views/bookingpress_sms_settings.php:22
+#: core/views/bookingpress_sms_settings.php:26
+#: core/views/bookingpress_sms_settings.php:27
+#@ bookingpress-sms
+msgid "Select SMS Gateway"
+msgstr "Sélectionnez la passerelle SMS"
+
+#: core/views/bookingpress_sms_settings.php:45
+#: core/views/bookingpress_sms_settings.php:49
+#@ bookingpress-sms
+msgid "API ID"
+msgstr "ID d'API"
+
+#: core/views/bookingpress_sms_settings.php:56
+#@ bookingpress-sms
+msgid "Account ID"
+msgstr "identifiant de compte"
+
+#: core/views/bookingpress_sms_settings.php:60
+#: core/views/bookingpress_sms_settings.php:91
+#: core/views/bookingpress_sms_settings.php:112
+#: core/views/bookingpress_sms_settings.php:152
+#: core/views/bookingpress_sms_settings.php:183
+#: core/views/bookingpress_sms_settings.php:214
+#@ bookingpress-sms
+msgid "Enter username"
+msgstr "Saisissez votre nom d'utilisateur"
+
+#: core/views/bookingpress_sms_settings.php:66
+#@ bookingpress-sms
+msgid "Email"
+msgstr "E-mail"
+
+#: core/views/bookingpress_sms_settings.php:70
+#@ bookingpress-sms
+msgid "Enter email"
+msgstr "Entrez l'e-mail"
+
+#: core/views/bookingpress_sms_settings.php:80
+#: core/views/bookingpress_sms_settings.php:101
+#: core/views/bookingpress_sms_settings.php:122
+#: core/views/bookingpress_sms_settings.php:162
+#: core/views/bookingpress_sms_settings.php:193
+#: core/views/bookingpress_sms_settings.php:224
+#: core/views/bookingpress_sms_settings.php:255
+#@ bookingpress-sms
+msgid "Enter password"
+msgstr "Entrer le mot de passe"
+
+#: core/views/bookingpress_sms_settings.php:132
+#@ bookingpress-sms
+msgid "Enter API Key"
+msgstr "Entrez la clé API"
+
+#: core/views/bookingpress_sms_settings.php:142
+#@ bookingpress-sms
+msgid "Enter sender id/ mobile number"
+msgstr "Entrez l'identifiant de l'expéditeur/numéro de téléphone portable"
+
+#: core/views/bookingpress_sms_settings.php:168
+#: core/views/bookingpress_sms_settings.php:172
+#@ bookingpress-sms
+msgid "SMS Sender ID"
+msgstr "ID de l'expéditeur du SMS"
+
+#: core/views/bookingpress_sms_settings.php:199
+#: core/views/bookingpress_sms_settings.php:203
+#: core/views/bookingpress_sms_settings.php:694
+#: core/views/bookingpress_sms_settings.php:698
+#: core/views/bookingpress_sms_settings.php:863
+#: core/views/bookingpress_sms_settings.php:867
+#: core/views/bookingpress_sms_settings.php:957
+#: core/views/bookingpress_sms_settings.php:961
+#@ bookingpress-sms
+msgid "From Number"
+msgstr "Du numéro"
+
+#: core/views/bookingpress_sms_settings.php:230
+#: core/views/bookingpress_sms_settings.php:234
+#: core/views/bookingpress_sms_settings.php:380
+#: core/views/bookingpress_sms_settings.php:384
+#: core/views/bookingpress_sms_settings.php:590
+#: core/views/bookingpress_sms_settings.php:594
+#@ bookingpress-sms
+msgid "Sender Name"
+msgstr "Nom de l'expéditeur"
+
+#: core/views/bookingpress_sms_settings.php:241
+#: core/views/bookingpress_sms_settings.php:476
+#: core/views/bookingpress_sms_settings.php:480
+#@ bookingpress-sms
+msgid "User"
+msgstr "Utilisateur"
+
+#: core/views/bookingpress_sms_settings.php:245
+#@ bookingpress-sms
+msgid "Enter User"
+msgstr "Entrez l'utilisateur"
+
+#: core/views/bookingpress_sms_settings.php:277
+#: core/views/bookingpress_sms_settings.php:281
+#@ bookingpress-sms
+msgid "App Key"
+msgstr "Clé d'application"
+
+#: core/views/bookingpress_sms_settings.php:329
+#: core/views/bookingpress_sms_settings.php:333
+#@ bookingpress-sms
+msgid "API Token"
+msgstr "Jeton d'API"
+
+#: core/views/bookingpress_sms_settings.php:339
+#: core/views/bookingpress_sms_settings.php:343
+#@ bookingpress-sms
+msgid "Sub Domain"
+msgstr "Sous-domaine"
+
+#: core/views/bookingpress_sms_settings.php:359
+#: core/views/bookingpress_sms_settings.php:363
+#: core/views/bookingpress_sms_settings.php:432
+#: core/views/bookingpress_sms_settings.php:436
+#: core/views/bookingpress_sms_settings.php:621
+#: core/views/bookingpress_sms_settings.php:625
+#@ bookingpress-sms
+msgid "Sender ID"
+msgstr "Identifiant de l'expéditeur"
+
+#: core/views/bookingpress_sms_settings.php:401
+#: core/views/bookingpress_sms_settings.php:405
+#@ bookingpress-sms
+msgid "API Secret"
+msgstr "Clé secrète de l'API"
+
+#: core/views/bookingpress_sms_settings.php:411
+#: core/views/bookingpress_sms_settings.php:415
+#: core/views/bookingpress_sms_settings.php:787
+#: core/views/bookingpress_sms_settings.php:791
+#@ bookingpress-sms
+msgid "Sender ID/Phone Number"
+msgstr "ID de l'expéditeur/numéro de téléphone"
+
+#: core/views/bookingpress_sms_settings.php:426
+#: core/views/bookingpress_sms_settings.php:549
+#: core/views/bookingpress_sms_settings.php:553
+#@ bookingpress-sms
+msgid "Auth Key"
+msgstr "Clé d'authentification"
+
+#: core/views/bookingpress_sms_settings.php:444
+#: core/views/bookingpress_sms_settings.php:448
+#@ bookingpress-sms
+msgid "Key"
+msgstr "Clé"
+
+#: core/views/bookingpress_sms_settings.php:496
+#: core/views/bookingpress_sms_settings.php:500
+#@ bookingpress-sms
+msgid "MSIDSN/Sender ID"
+msgstr "MSIDSN/ID de l'expéditeur"
+
+#: core/views/bookingpress_sms_settings.php:527
+#: core/views/bookingpress_sms_settings.php:531
+#: core/views/bookingpress_sms_settings.php:673
+#: core/views/bookingpress_sms_settings.php:677
+#@ bookingpress-sms
+msgid "Originator"
+msgstr "Auteur"
+
+#: core/views/bookingpress_sms_settings.php:538
+#: core/views/bookingpress_sms_settings.php:542
+#@ bookingpress-sms
+msgid "Account Key"
+msgstr "Clé de compte"
+
+#: core/views/bookingpress_sms_settings.php:559
+#: core/views/bookingpress_sms_settings.php:563
+#: core/views/bookingpress_sms_settings.php:828
+#: core/views/bookingpress_sms_settings.php:832
+#: core/views/bookingpress_sms_settings.php:884
+#: core/views/bookingpress_sms_settings.php:888
+#: core/views/bookingpress_sms_settings.php:905
+#: core/views/bookingpress_sms_settings.php:909
+#@ bookingpress-sms
+msgid "Sender Id"
+msgstr "Identifiant de l'expéditeur"
+
+#: core/views/bookingpress_sms_settings.php:601
+#: core/views/bookingpress_sms_settings.php:605
+#@ bookingpress-sms
+msgid "Account No"
+msgstr "N ° de compte"
+
+#: core/views/bookingpress_sms_settings.php:611
+#: core/views/bookingpress_sms_settings.php:615
+#@ bookingpress-sms
+msgid "Account Password"
+msgstr "Mot de passe du compte"
+
+#: core/views/bookingpress_sms_settings.php:652
+#: core/views/bookingpress_sms_settings.php:656
+#@ bookingpress-sms
+msgid "Sender name"
+msgstr "Nom de l'expéditeur"
+
+#: core/views/bookingpress_sms_settings.php:746
+#: core/views/bookingpress_sms_settings.php:750
+#@ bookingpress-sms
+msgid "Sub Account ID"
+msgstr "ID de sous-compte"
+
+#: core/views/bookingpress_sms_settings.php:756
+#: core/views/bookingpress_sms_settings.php:760
+#@ bookingpress-sms
+msgid "Source (Sender ID)"
+msgstr "Source (identifiant de l'expéditeur)"
+
+#: core/views/bookingpress_sms_settings.php:777
+#: core/views/bookingpress_sms_settings.php:781
+#@ bookingpress-sms
+msgid "Org ID"
+msgstr "ID de l'organisation"
+
+#: core/views/bookingpress_sms_settings.php:808
+#: core/views/bookingpress_sms_settings.php:812
+#@ bookingpress-sms
+msgid "User Id"
+msgstr "Identifiant d'utilisateur"
+
+#: core/views/bookingpress_sms_settings.php:978
+#: core/views/bookingpress_sms_settings.php:982
+#@ bookingpress-sms
+msgid "Project ID"
+msgstr "ID de projet"
+
+#: core/views/bookingpress_sms_settings.php:1010
+#@ bookingpress-sms
+msgid "Select Moblie Number Field"
+msgstr "Sélectionnez le champ Numéro mobile"
+
+#: core/views/bookingpress_sms_settings.php:1014
+#@ bookingpress-sms
+msgid "Select Mobile Number Field"
+msgstr "Sélectionnez le champ Numéro de mobile"
+
+#: core/views/bookingpress_sms_settings.php:1051
+#@ bookingpress-sms
+msgid "Send Test SMS"
+msgstr "Envoyer un SMS d'essai"
+
+#: core/views/bookingpress_sms_settings.php:1030
+#: core/views/bookingpress_sms_settings.php:1034
+#@ bookingpress-sms
+msgid "To Number"
+msgstr "Au numéro"
+
+#: core/views/bookingpress_sms_settings.php:1040
+#@ bookingpress-sms
+msgid "Enter Message"
+msgstr "Entrer un message"
+
+#: core/classes/class.bookingpress-sms.php:3507
+#: core/classes/class.bookingpress-sms.php:3510
+#@ bookingpress-sms
+msgid "This field is required"
+msgstr "Ce champ est requis"
+
+#: core/classes/class.bookingpress-sms.php:312
+#@ bookingpress-sms
+msgid "Through SMS"
+msgstr "Par SMS"
+
+#: core/classes/class.bookingpress-sms.php:338
+#@ bookingpress-sms
+msgid "Please enter phone number"
+msgstr "Veuillez entrer le numéro de téléphone"
+
+#: core/classes/class.bookingpress-sms.php:347
+#@ bookingpress-sms
+msgid "SMS"
+msgstr "SMS"
+
+#: core/classes/class.bookingpress-sms.php:358
+#@ bookingpress-sms
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+#: core/classes/class.bookingpress-sms.php:360
+#@ bookingpress-sms
+msgid "Enter phone number"
+msgstr "Entrez le numéro de téléphone"
+
+#: core/classes/class.bookingpress-sms.php:2678
+#@ bookingpress-sms
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "Pardon. Une erreur s'est produite lors du traitement de la demande"
+
+#: core/views/bookingpress_sms_settings.php:16
+#@ bookingpress-sms
+msgid "API Configuration"
+msgstr "Configuration de l'API"
+
+#: core/views/bookingpress_sms_settings.php:1024
+#@ bookingpress-sms
+msgid "SMS Testing"
+msgstr "Test SMS"
+
+#: core/classes/class.bookingpress-sms.php:2813
+#@ bookingpress-sms
+msgid "Enter phone number ( With Contry code ) to send SMS to extra recipient"
+msgstr "Entrez le numéro de téléphone (avec le code du pays) pour envoyer des SMS à un destinataire supplémentaire"
+
+#. translators: 1. General settings url
+#: core/classes/class.bookingpress-sms.php:153
+#, php-format
+#@ bookingpress-sms
+msgid "The API for 'SMS API' SMS Gateway has been changed. Please update your configurations with the latest changes or else the SMS might not sent. %s."
+msgstr "L'API pour la passerelle SMS 'SMS API' a été modifiée. Veuillez mettre à jour vos configurations avec les dernières modifications, sinon le SMS pourrait ne pas être envoyé. %s."
+
+#: core/classes/class.bookingpress-sms.php:1286
+#@ bookingpress-sms
+msgid "SMS not sent successfully due to error "
+msgstr "SMS non envoyé avec succès en raison d'une erreur"
+
+#: core/classes/class.bookingpress-sms.php:1165
+#: core/classes/class.bookingpress-sms.php:1331
+#: core/classes/class.bookingpress-sms.php:1411
+#: core/classes/class.bookingpress-sms.php:1461
+#: core/classes/class.bookingpress-sms.php:1507
+#@ bookingpress-sms
+msgid "SMS not sent successfully due to "
+msgstr "SMS non envoyé avec succès en raison de"
+
+#: core/classes/class.bookingpress-sms.php:1369
+#: core/classes/class.bookingpress-sms.php:1990
+#@ bookingpress-sms
+msgid "SMS not sent successfully due to"
+msgstr "SMS non envoyé avec succès en raison de"
+
+#: core/classes/class.bookingpress-sms.php:1599
+#@ bookingpress-sms
+msgid "SMS not sent successfully due to error code"
+msgstr "SMS non envoyé avec succès en raison d'un code d'erreur"
+
+#: core/classes/class.bookingpress-sms.php:1706
+#: core/classes/class.bookingpress-sms.php:1898
+#: core/classes/class.bookingpress-sms.php:2068
+#: core/classes/class.bookingpress-sms.php:2268
+#: core/classes/class.bookingpress-sms.php:2552
+#: core/classes/class.bookingpress-sms.php:2596
+#: core/classes/class.bookingpress-sms.php:2655
+#@ bookingpress-sms
+msgid "SMS not sent successfully due to error"
+msgstr "SMS non envoyé avec succès en raison d'une erreur"
+
+#: core/classes/class.bookingpress-sms.php:1784
+#@ bookingpress-sms
+msgid "SMS not send successfully due to error "
+msgstr "Le SMS n'a pas été envoyé avec succès en raison d'une erreur"
+
+#: core/classes/class.bookingpress-sms.php:1828
+#@ bookingpress-sms
+msgid "SMS not sent Successfully due to error"
+msgstr "SMS non envoyé avec succès en raison d'une erreur"
+
+#: core/classes/class.bookingpress-sms.php:1949
+#@ bookingpress-sms
+msgid "SMS not sent with error code"
+msgstr "SMS non envoyé avec code d'erreur"
+
+#: core/classes/class.bookingpress-sms.php:2110
+#: core/classes/class.bookingpress-sms.php:2180
+#: core/classes/class.bookingpress-sms.php:2469
+#@ bookingpress-sms
+msgid "SMS not send successfully due to error"
+msgstr "Le SMS n'a pas été envoyé avec succès en raison d'une erreur"
+
+#: core/classes/class.bookingpress-sms.php:2374
+#@ bookingpress-sms
+msgid "SMS not sent successfully"
+msgstr "SMS non envoyé avec succès"
+
+#: core/classes/class.bookingpress-sms.php:2418
+#@ bookingpress-sms
+msgid "SMS not sent successfuly due to error code"
+msgstr "SMS non envoyé en raison d'un code d'erreur"
+
+#: core/views/bookingpress_sms_settings.php:840
+#@ bookingpress-sms
+msgid "Select SMS API"
+msgstr "Sélectionnez API SMS"
+
+#: core/classes/class.bookingpress-sms.php:1016
+#@ bookingpress-sms
+msgid "It's Required to update the BookingPress Premium Plugin to version 2.8 or higher in order to use the BookingPress SMS plugin"
+msgstr "Il est nécessaire de mettre à jour le plugin BookingPress Premium vers la version 2.8 ou supérieure afin d'utiliser le plugin BookingPress SMS"
+
+#. translators: 1. General settings url
+#: core/classes/class.bookingpress-sms.php:167
+#, php-format
+#@ bookingpress-sms
+msgid "The API for 'RingCaptcha' SMS Gateway has been changed. Please update your configurations with the latest changes or else the SMS might not sent. %s."
+msgstr "Se ha cambiado la API para la puerta de enlace SMS 'RingCaptcha'. Actualice sus configuraciones con los últimos cambios; de lo contrario, es posible que el SMS no se envíe. %s."
+
+#. translators: 1. General settings url
+#: core/classes/class.bookingpress-sms.php:182
+#, php-format
+#@ bookingpress-sms
+msgid "The API for 'Routee' SMS Gateway has been changed. Please update your configurations with the latest changes or else the SMS might not sent. %s."
+msgstr "Se ha cambiado la API para la puerta de enlace SMS 'Routee'. Actualice sus configuraciones con los últimos cambios; de lo contrario, es posible que el SMS no se envíe. %s."
+
+#: core/views/bookingpress_sms_settings.php:263
+#@ bookingpress-sms
+msgid "Select Locale"
+msgstr "Seleccionar configuración regional"
+
+#: core/views/bookingpress_sms_settings.php:705
+#: core/views/bookingpress_sms_settings.php:709
+#@ bookingpress-sms
+msgid "Application ID"
+msgstr "ID de aplicación"
+
+#: core/views/bookingpress_sms_settings.php:715
+#: core/views/bookingpress_sms_settings.php:719
+#@ bookingpress-sms
+msgid "Application Secret"
+msgstr "Secreto de aplicación"
+
+#: core/views/bookingpress_sms_settings.php:725
+#: core/views/bookingpress_sms_settings.php:729
+#@ bookingpress-sms
+msgid "From"
+msgstr "Depuis"
+
+#. translators: plugin header field 'Version'
+#: bookingpress-sms.php:0
+#@ bookingpress-sms
+msgid "2.0"
+msgstr "2.0"
+
+#: core/classes/class.bookingpress-sms.php:210
+#: core/classes/class.bookingpress-sms.php:223
+#: core/classes/class.bookingpress-sms.php:254
+#: core/classes/class.bookingpress-sms.php:265
+#: core/classes/class.bookingpress-sms.php:3602
+#@ bookingpress-sms
+msgid "Please activate license of BookingPress premium plugin to use BookingPress SMS Add-on"
+msgstr "Veuillez activer la licence du plugin premium BookingPress pour utiliser le module complémentaire SMS BookingPress."
+
+#: core/classes/class.bookingpress-sms.php:211
+#: core/classes/class.bookingpress-sms.php:224
+#: core/classes/class.bookingpress-sms.php:255
+#: core/classes/class.bookingpress-sms.php:266
+#: core/classes/class.bookingpress-sms.php:3603
+#, php-format
+#@ bookingpress-sms
+msgid "Please %s Click Here %s to Continue"
+msgstr "S'il vous plaît %s Cliquez ici %s pour continuer"
+
+#: core/classes/class.bookingpress-sms.php:3556
+#: core/classes/class.bookingpress-sms.php:3588
+#@ bookingpress-sms
+msgid "An error occurred, please try again."
+msgstr "Une erreur s'est produite, veuillez réessayer."
+
+#: core/classes/class.bookingpress-sms.php:3564
+#, php-format
+#@ bookingpress-sms
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le %s."
+
+#: core/classes/class.bookingpress-sms.php:3569
+#@ bookingpress-sms
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#: core/classes/class.bookingpress-sms.php:3572
+#@ bookingpress-sms
+msgid "Invalid license."
+msgstr "Licence invalide."
+
+#: core/classes/class.bookingpress-sms.php:3576
+#@ bookingpress-sms
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n'est pas active pour cette URL."
+
+#: core/classes/class.bookingpress-sms.php:3579
+#: core/classes/class.bookingpress-sms.php:3582
+#@ bookingpress-sms
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Cela semble être une clé de licence invalide pour votre package sélectionné."
+
+#: core/classes/class.bookingpress-sms.php:3585
+#@ bookingpress-sms
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d'activation."
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-sms
+msgid "There is a new version of %1$s available."
+msgstr "Une nouvelle version de %1$s est disponible."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-sms
+msgid "Contact your network administrator to install the update."
+msgstr "Contactez votre administrateur réseau pour installer la mise à jour."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-sms
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sVoir les détails de la version %2$s%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-sms
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sAfficher les détails de la version %2$s%3$s ou %4$mettre à jour maintenant%5$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-sms
+msgid "Update now."
+msgstr "Mettez à jour maintenant."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-sms
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n'êtes pas autorisé à installer les mises à jour du plugin"
+

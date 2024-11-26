@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+sitemap:https://supremesparklez.hair/sitemap.xml
+sitemap:https://supremesparklez.hair/sitemap-1.xml
+sitemap:https://supremesparklez.hair/sitemap-2.xml
+sitemap:https://supremesparklez.hair/sitemap-3.xml
+sitemap:https://supremesparklez.hair/sitemap-4.xml
+sitemap:https://supremesparklez.hair/sitemap-5.xml
+sitemap:https://supremesparklez.hair/sitemap-6.xml
+sitemap:https://supremesparklez.hair/sitemap-7.xml
+sitemap:https://supremesparklez.hair/sitemap-8.xml
+sitemap:https://supremesparklez.hair/sitemap-9.xml
+sitemap:https://supremesparklez.hair/sitemap-10.xml
+sitemap:https://supremesparklez.hair/sitemap-11.xml
+sitemap:https://supremesparklez.hair/sitemap-12.xml
+sitemap:https://supremesparklez.hair/sitemap-13.xml
+sitemap:https://supremesparklez.hair/sitemap-14.xml
+sitemap:https://supremesparklez.hair/sitemap-15.xml
+sitemap:https://supremesparklez.hair/sitemap-16.xml
+sitemap:https://supremesparklez.hair/sitemap-17.xml
+sitemap:https://supremesparklez.hair/sitemap-18.xml
+sitemap:https://supremesparklez.hair/sitemap-19.xml
+sitemap:https://supremesparklez.hair/sitemap-20.xml

@@ -1,0 +1,305 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress - Paypalpro Payment Gateway Addon v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-04-25 09:51:56+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-paypalpro.php:0
+#@ bookingpress-paypalpro
+msgid "BookingPress - Paypalpro Payment Gateway Addon"
+msgstr "BookingPress - Addon Paypalpro Gateway"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-paypalpro.php:0
+#@ bookingpress-paypalpro
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-paypalpro.php:0
+#@ bookingpress-paypalpro
+msgid "Extension for BookingPress plugin to accept payments using Paypalpro Payment Gateway."
+msgstr "Extensie pentru pluginul BookingPress pentru a accepta plăți folosind Paypalpro Payment Gateway."
+
+#. translators: plugin header field 'Author'
+#: bookingpress-paypalpro.php:0
+#@ bookingpress-paypalpro
+msgid "Repute InfoSystems"
+msgstr "Repute InfoSystems"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:252
+#: core/classes/class.bookingpress-paypalpro-payment.php:473
+#@ bookingpress-paypalpro
+msgid "Appointment Booking"
+msgstr "Rezervare programare"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:194
+#: core/classes/class.bookingpress-paypalpro-payment.php:207
+#: core/classes/class.bookingpress-paypalpro-payment.php:403
+#: core/classes/class.bookingpress-paypalpro-payment.php:416
+#: core/classes/class.bookingpress-paypalpro-payment.php:625
+#: core/classes/class.bookingpress-paypalpro-payment.php:638
+#@ bookingpress-paypalpro
+msgid "Something went wrong while pay with Paypalpro"
+msgstr "Ceva a mers prost la plata cu Paypalpro"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:199
+#: core/classes/class.bookingpress-paypalpro-payment.php:212
+#: core/classes/class.bookingpress-paypalpro-payment.php:408
+#: core/classes/class.bookingpress-paypalpro-payment.php:421
+#: core/classes/class.bookingpress-paypalpro-payment.php:630
+#: core/classes/class.bookingpress-paypalpro-payment.php:643
+#: core/classes/class.bookingpress-paypalpro-payment.php:724
+#: core/classes/class.bookingpress-paypalpro-payment.php:731
+#: core/classes/class.bookingpress-paypalpro.php:531
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-paypalpro
+msgid "Error"
+msgstr "Eroare"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:207
+#: core/classes/class.bookingpress-paypalpro-payment.php:416
+#: core/classes/class.bookingpress-paypalpro-payment.php:638
+#@ bookingpress-paypalpro
+msgid "Error returned from paypal pro"
+msgstr "Eroare returnată de la paypal pro"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:715
+#@ bookingpress-paypalpro
+msgid "Success"
+msgstr "Succes"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:720
+#@ bookingpress-paypalpro
+msgid "Sorry! refund could not be processed"
+msgstr "Îmi pare rău! rambursarea nu a putut fi procesată"
+
+#: core/classes/class.bookingpress-paypalpro.php:147
+#: core/classes/class.bookingpress-paypalpro.php:154
+#: core/classes/class.bookingpress-paypalpro.php:163
+#: core/classes/class.bookingpress-paypalpro.php:170
+#: core/classes/class.bookingpress-paypalpro.php:241
+#: core/classes/class.bookingpress-paypalpro.php:367
+#@ bookingpress-paypalpro
+msgid "Paypalpro payment title"
+msgstr "Titlul de plată Paypalpro"
+
+#: core/classes/class.bookingpress-paypalpro.php:360
+#@ bookingpress-paypalpro
+msgid "Paypalpro"
+msgstr "Paypalpro"
+
+#: core/classes/class.bookingpress-paypalpro.php:397
+#@ bookingpress-paypalpro
+msgid "Please enter the api username"
+msgstr "Vă rugăm să introduceți numele de utilizator api"
+
+#: core/classes/class.bookingpress-paypalpro.php:404
+#@ bookingpress-paypalpro
+msgid "Please enter the api password"
+msgstr "Vă rugăm să introduceți parola API"
+
+#: core/classes/class.bookingpress-paypalpro.php:411
+#@ bookingpress-paypalpro
+msgid "Please enter the vendor"
+msgstr "Vă rugăm să introduceți furnizorul"
+
+#: core/classes/class.bookingpress-paypalpro.php:418
+#@ bookingpress-paypalpro
+msgid "Please enter the partner"
+msgstr "Vă rugăm să introduceți partenerul"
+
+#: core/classes/class.bookingpress-paypalpro.php:433
+#@ bookingpress-paypalpro
+msgid "Paypal Pro"
+msgstr "Paypal Pro"
+
+#: core/classes/class.bookingpress-paypalpro.php:444
+#@ bookingpress-paypalpro
+msgid "Payment Mode"
+msgstr "Mod de plată"
+
+#: core/classes/class.bookingpress-paypalpro.php:453
+#@ bookingpress-paypalpro
+msgid "API Username"
+msgstr "Nume de utilizator API"
+
+#: core/classes/class.bookingpress-paypalpro.php:457
+#@ bookingpress-paypalpro
+msgid "Enter api username"
+msgstr "Introduceți numele de utilizator api"
+
+#: core/classes/class.bookingpress-paypalpro.php:463
+#@ bookingpress-paypalpro
+msgid "API Password"
+msgstr "Parola API"
+
+#: core/classes/class.bookingpress-paypalpro.php:467
+#@ bookingpress-paypalpro
+msgid "Enter api password"
+msgstr "Introduceți parola API"
+
+#: core/classes/class.bookingpress-paypalpro.php:473
+#@ bookingpress-paypalpro
+msgid "Vendor"
+msgstr "Furnizor"
+
+#: core/classes/class.bookingpress-paypalpro.php:477
+#@ bookingpress-paypalpro
+msgid "Enter vendor"
+msgstr "Introduceți furnizor"
+
+#: core/classes/class.bookingpress-paypalpro.php:483
+#@ bookingpress-paypalpro
+msgid "Partner"
+msgstr "Partener"
+
+#: core/classes/class.bookingpress-paypalpro.php:487
+#@ bookingpress-paypalpro
+msgid "Enter partner"
+msgstr "Introduceți partenerul"
+
+#: core/classes/class.bookingpress-paypalpro.php:527
+#@ bookingpress-paypalpro
+msgid "Please fill all fields value of card details"
+msgstr "Vă rugăm să completați toate câmpurile valoarea detaliilor cardului"
+
+#: core/classes/class.bookingpress-paypalpro.php:571
+#@ bookingpress-paypalpro
+msgid "Bookingpress - Paypalpro plugin requires Bookingpress Premium Plugin installed and active."
+msgstr "Bookingpress - Pluginul Paypalpro necesită instalat și activ Pluginul Bookingpress Premium."
+
+#: core/classes/class.bookingpress-paypalpro.php:668
+#: core/classes/class.bookingpress-paypalpro.php:677
+#: core/views/upgrade_latest_data.php:11
+#: core/views/upgrade_latest_data.php:28
+#@ bookingpress-paypalpro
+msgid "Credit Card"
+msgstr "Card de credit"
+
+#. translators: plugin header field 'Version'
+#: bookingpress-paypalpro.php:0
+#@ bookingpress-paypalpro
+msgid "1.4"
+msgstr "1.4"
+
+#: core/classes/class.bookingpress-paypalpro-payment.php:43
+#@ bookingpress-paypalpro
+msgid "Gift Card Purchase"
+msgstr "Achiziție card cadou"
+
+#: core/classes/class.bookingpress-paypalpro.php:290
+#: core/classes/class.bookingpress-paypalpro.php:303
+#: core/classes/class.bookingpress-paypalpro.php:334
+#: core/classes/class.bookingpress-paypalpro.php:345
+#@ bookingpress-paypalpro
+msgid "Please activate license of BookingPress premium plugin to use BookingPress PayPal Pro Payment Gateway Add-on"
+msgstr "Vă rugăm să activați licența pluginului premium BookingPress pentru a utiliza suplimentul BookingPress PayPal Pro Payment Gateway"
+
+#: core/classes/class.bookingpress-paypalpro.php:291
+#: core/classes/class.bookingpress-paypalpro.php:304
+#: core/classes/class.bookingpress-paypalpro.php:335
+#: core/classes/class.bookingpress-paypalpro.php:346
+#: core/classes/class.bookingpress-paypalpro.php:647
+#, php-format
+#@ bookingpress-paypalpro
+msgid "Please %s Click Here %s to Continue"
+msgstr "Vă rugăm %s Faceți clic aici %s pentru a continua"
+
+#: core/classes/class.bookingpress-paypalpro.php:601
+#: core/classes/class.bookingpress-paypalpro.php:633
+#@ bookingpress-paypalpro
+msgid "An error occurred, please try again."
+msgstr "A aparut o eroare. Va rugam sa incercati din nou."
+
+#: core/classes/class.bookingpress-paypalpro.php:609
+#, php-format
+#@ bookingpress-paypalpro
+msgid "Your license key expired on %s."
+msgstr "Cheia de licență a expirat pe %s."
+
+#: core/classes/class.bookingpress-paypalpro.php:614
+#@ bookingpress-paypalpro
+msgid "Your license key has been disabled."
+msgstr "Cheia de licență a fost dezactivată."
+
+#: core/classes/class.bookingpress-paypalpro.php:617
+#@ bookingpress-paypalpro
+msgid "Invalid license."
+msgstr "Licență nevalidă."
+
+#: core/classes/class.bookingpress-paypalpro.php:621
+#@ bookingpress-paypalpro
+msgid "Your license is not active for this URL."
+msgstr "Licența dvs. nu este activă pentru această adresă URL."
+
+#: core/classes/class.bookingpress-paypalpro.php:624
+#: core/classes/class.bookingpress-paypalpro.php:627
+#@ bookingpress-paypalpro
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Aceasta pare a fi o cheie de licență nevalidă pentru pachetul selectat."
+
+#: core/classes/class.bookingpress-paypalpro.php:630
+#@ bookingpress-paypalpro
+msgid "Your license key has reached its activation limit."
+msgstr "Cheia de licență a atins limita de activare."
+
+#: core/classes/class.bookingpress-paypalpro.php:646
+#@ bookingpress-paypalpro
+msgid "Please activate license of BookingPress premium plugin to use BookingPress Paypal Pro Add-on"
+msgstr "Vă rugăm să activați licența pluginului premium BookingPress pentru a utiliza suplimentul BookingPress Paypal Pro"
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-paypalpro
+msgid "There is a new version of %1$s available."
+msgstr "Există o nouă versiune de %1$s disponibilă."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-paypalpro
+msgid "Contact your network administrator to install the update."
+msgstr "Contactați administratorul de rețea pentru a instala actualizarea."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-paypalpro
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sVedeți detaliile versiunii %2$s%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-paypalpro
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sAfișează versiunea %2$s detalii%3$s sau %4$actualizare acum%5$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-paypalpro
+msgid "Update now."
+msgstr "Actualizează acum."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-paypalpro
+msgid "You do not have permission to install plugin updates"
+msgstr "Nu aveți permisiunea de a instala actualizări de plugin"
+

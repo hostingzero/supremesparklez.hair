@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Spatie calendar-links
+BEGIN:VEVENT
+UID:22a1f6e513b3600d63626a35306bd5ba
+SUMMARY:Supreme Sparkle - 04 May 2024 23:44
+DTSTAMP;TZID=+00:00:20240504T234400
+DTSTART;TZID=+00:00:20240504T234400
+DTEND;TZID=+00:00:20240504T235900
+X-ALT-DESC;FMTTYPE=text/html:Salon name: Supreme Sparkle \n\nSalon address:  \n\nSalon phone:  \n\nSalon email: appointments@supremesparklez.hair \n\nBooked services:\n\nBooking notes:\nNone\n\nBooking status: Confirmed
+END:VEVENT
+END:VCALENDAR

